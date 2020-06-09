@@ -1,0 +1,21 @@
+<!-- Toolbar -->
+<div class="toolbar" role="banner">
+  
+  <ng-select [items]="items"
+               bindLabel="name"
+               placeholder="Select item"
+               appendTo="body"
+               multiple="true"
+               [(ngModel)]="selected">
+    </ng-select>
+
+    <ng-select [items]="items"
+               bindLabel="name"
+               placeholder="Select item"
+               multiple="true"
+               [(ngModel)]="selected">
+    </ng-select>
+</div>
+
+
+<router-outlet></router-outlet>
